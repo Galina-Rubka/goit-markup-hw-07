@@ -1,4 +1,4 @@
-@import './base/wars';
+@import './utils/wars';
 @import './base/reset';
 @import './base/base-styles';
 @import './layout/header';
@@ -9,5 +9,5 @@
 @import './layout/team';
 @import './layout/clients';
 @import './layout/footer';
-@import './layout/buttons';
+@import './components/buttons';
 @import './layout/grid';

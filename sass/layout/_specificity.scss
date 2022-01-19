@@ -1,3 +1,4 @@
+
 .specificity {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -17,11 +18,15 @@
     display: flex;
   }
   
-  .specificity__image:not(:last-child) {
-    margin-right: 30px;
-  }
+  // .specificity__image:not(:last-child) {
+  //   margin-right: 30px;
+  // }
   .specificity__image {
     position: relative;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
   .specificity__title {
